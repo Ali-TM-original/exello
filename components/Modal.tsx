@@ -74,14 +74,14 @@ function Modal() {
                   </div>
                   <TaskTypeRadioGroup/>
                   <div className="mt-2">
-                      <button type="button" onClick={() => {
+                      {/* <button type="button" onClick={() => {
                         imagePickerRef.current?.click()
                       }} className="w-full border border-gray-300 rounded-md outline-none p-5 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
                         <PhotoIcon 
                           className="h-6 w-6 mr-2 inline-block"
                         />
                         Upload Image
-                      </button>
+                      </button> */}
                       {image && (
                         <Image
                           width={200}
